@@ -1,0 +1,87 @@
+body {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    border: 2px solid black;
+    font: 16px Arial, sans-serif;
+}
+
+.structural {
+    margin: 10px;
+    padding: 10px;
+}
+
+h1 {
+    color: red;
+    font-size: 24px;
+}
+
+h2 {
+    color:red;
+    font-size: 24px;
+}
+p{
+    color: red;
+    font-size: 24px;
+    
+}
+
+main {
+    height: 70vh;
+}
+
+figure img {
+    border: 1px solid red;
+    width: 90%;
+    height: 80%;
+}
+
+figure {
+    background-color: orange;
+    width: 45%;
+    height: 60%;
+    margin: auto;
+    padding: 10px;
+}
+
+figure#apple1 {
+    float: left;
+  
+}
+
+figure#apple2 {
+    float: right;
+}
+
+section {
+    clear: both;
+}
+
+figcaption {
+    font-weight: bold;
+    font-size: 18px;
+    color: yellow;
+    padding: 5px;
+}
+
+a {
+    color: purple;
+}
+
+a:hover {
+    color: red;
+}
+
+ul {
+    list-style-type: square;
+    line-height: 1.5;
+    color: bisque;
+}
+
+
+
+
+
+header, footer {
+    background-color: orange;
+}
